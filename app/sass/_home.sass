@@ -106,6 +106,75 @@
 // 
 //
 
+
+
+////
+//// footer-main
+////
+
+.footer-main
+  padding-top: 120px
+  padding-bottom: 20px
+
+@media (min-width: 1400px)
+  .footer-widget-3
+    margin-left: auto
+    max-width: 250px
+
 //
-// section-hero-block
+// nav-footer
 //
+
+.nav-footer-container
+  display: flex
+  justify-content: space-around
+  color: $main-text-color
+
+
+.nav-footer-ul
+  padding-left: 0
+  margin-bottom: 20px
+  list-style: none
+.nav-footer-ul-li
+  &__a
+    color: $main-text-color
+    font-size: 17px
+    padding: 5px
+    display: block
+    &:hover,
+    &:active,
+    &:focus
+      color: $main-text-color
+
+
+.footer-sign-form
+  display: flex
+  margin-bottom: 20px
+  &__text
+    width: 100%
+    color: $main-text-color
+    border: 2px solid $main-text-color
+    padding: 5px 10px
+    font-size: 17px
+  &__submit
+    font-size: 12px
+    font-weight: 500
+    color: #fff
+    border: 2px solid $main-text-color
+    background-color: $main-text-color
+    padding: 5px 30px
+
+
+.footer-social-nav
+  display: flex
+  justify-content: space-between
+  &__a
+    max-width: 42px
+    &-img
+      width: 100%
+
+
+.footer-copyright-row
+  margin-top: 60px
+.footer-copyright
+  text-align: center
