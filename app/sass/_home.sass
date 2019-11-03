@@ -1,0 +1,111 @@
+////
+//// mainHeader
+////
+.mainHeader
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 8px 0
+  &__logoBlock
+  &__linksBlock
+    display: flex
+    align-items: center
+    &-links
+    &-btn
+      margin-left: 17px
+
+@media (min-width: 1400px)
+  .mainHeader.container
+    padding-left: 30px
+    padding-right: 30px
+    max-width: 1400px
+
+.mainLogo
+  max-width: 284px
+  display: flex
+  &__img
+    width: 100%
+
+
+.main-header-nav-ul
+  display: flex
+  padding-left: 0
+  margin-bottom: 0
+  list-style: none
+  
+.main-header-nav-li
+  &__a
+    padding: 10px 17px
+    color: $main-text-color
+    font-size: 17px
+    &:hover,
+    &:active,
+    &:focus
+      color: $main-text-color
+
+.mainHeader__linksBlock-btn>a
+  margin: 0 11px
+.mainHeader__linksBlock-btn>a:first-child
+  margin-left: 0
+.mainHeader__linksBlock-btn>a:last-child
+  margin-right: 0
+
+////
+//// main-content
+////
+
+
+//
+// section-hero-block
+//
+
+.main-content
+
+.section-hero-block
+  position: relative
+  min-height: 648px
+  //background-image: linear-gradient(to left, #697fd0 50%, #000f45 50%)
+  background: linear-gradient(to right, rgba(0,15,69,1) 1%, rgba(105,127,208,1) 100%)
+  display: flex
+  align-items: center
+  &__bgi
+    height: 100%
+    width: auto
+    position: absolute
+    top: 0
+    bottom: 0
+    right: 0
+    z-index: 0
+  &__content
+    color: #fff
+    display: flex
+    flex-direction: column
+    width: 35%
+    margin-left: 15%
+    position: relative
+    z-index: 1
+
+.section-hero-block__content
+  &-title
+    text-shadow: 0 2px 13px rgba(0, 0, 0, 0.21)
+    font-size: 57px
+    font-weight: 500
+    line-height: 1.14
+    letter-spacing: 1.45px
+    margin-bottom: 20px
+  &-sub
+    margin-bottom: 30px
+    text-shadow: 0 2px 17px rgba(0, 0, 0, 0.5)
+    line-height: 1.5
+    font-size: 18px
+    max-width: 60%
+    font-weight: normal
+  &-btn
+
+//
+// 
+//
+
+//
+// section-hero-block
+//

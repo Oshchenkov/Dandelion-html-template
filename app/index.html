@@ -14,16 +14,61 @@
 </head>
 
 <body>
-  <div class="container">
-    Your code
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repellendus expedita reiciendis. Enim eum alias
-    adipisci officia labore ratione deleniti reiciendis dolorum, dignissimos voluptatum aliquid ipsum praesentium aut,
-    maxime excepturi et dolore quasi, animi veniam nobis voluptatem laboriosam atque quam? Nulla deserunt quam fugit
-    quibusdam fugiat quos, laborum nemo inventore voluptate, quas dicta eligendi autem quod suscipit, ex consequuntur
-    sequi delectus ducimus alias explicabo itaque mollitia fuga recusandae similique. Nesciunt assumenda a veniam
-    voluptas sunt, quidem cupiditate odit labore eos quisquam saepe iste esse dolore, totam, ab error ut vero accusamus
-    qui at? Qui dolores accusamus odio ipsa a maxime?
-  </div><!-- /.container -->
+  <header class="mainHeader container">
+    <div class="mainHeader__logoBlock">
+      <a href="#" class="mainLogo">
+        <picture>
+          <source srcset="./images/logo-main.webp" type="image/webp" class="mainLogo__img">
+          <source srcset="./images/logo-main.png" type="image/png" class="mainLogo__img">
+          <img src="./images/logo-main.png" alt="Alt Text!" class="mainLogo__img">
+        </picture>
+      </a>
+    </div>
+    <div class="mainHeader__linksBlock">
+      <div class="mainHeader__linksBlock-links">
+        <ul class="main-header-nav-ul">
+          <li class="main-header-nav-li">
+            <a href="#" class="main-header-nav-li__a">
+              Targeting
+            </a>
+          </li>
+          <li class="main-header-nav-li">
+            <a href="#" class="main-header-nav-li__a">
+              Outreach
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="mainHeader__linksBlock-btn">
+        <a href="#" class="btn">
+          Login
+        </a>
+        <a href="#" class="btn btn-inverse">
+          Get started
+        </a>
+      </div>
+    </div>
+
+  </header>
+  <div class="main-content">
+    <section class="section-hero-block">
+      <img src="./images/hero_dandelion.png" alt="" class="section-hero-block__bgi">
+      <div class="section-hero-block__content">
+        <div class="section-hero-block__content-title">
+          Sell your SaaS to millions of businesses
+        </div>
+        <div class="section-hero-block__content-sub">
+          Partner with the world's most sophisticated lead generation and outreach agency.
+        </div>
+        <div class="section-hero-block__content-btn">
+          <a href="#" class="btn btn_size_md">
+            How it works
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
