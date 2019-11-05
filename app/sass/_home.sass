@@ -103,6 +103,106 @@
   &-btn
 
 //
+// section-touchpoints
+//
+
+.section-touchpoints
+  position: relative
+  min-height: 645px
+  display: flex
+  align-items: center
+  &__content-block
+    position: absolute
+    right: 7%
+    max-width: 350px
+    z-index: 1
+  &__imageBlock
+    position: absolute
+    left: 0
+    bottom: -50px
+    &-img
+      max-height: 600px
+      height: 100%
+
+.section-title
+  color: $main-text-color
+  font-family: "AvenirNext"
+  font-size: 47px
+  font-weight: 500
+  line-height: 1.2
+  position: relative
+  padding-bottom: 55px
+  &::after
+    content: ""
+    display: block
+    position: absolute
+    right: calc(50% - 58px)
+    width: 116px
+    height: 5px
+    margin-top: 25px
+    margin-bottom: 25px
+    background-color: $main-text-color
+.section-touchpoints-title
+  &::after
+    left: 0
+
+.section-touchpoints-sub
+.section-sub
+  color: $main-text-color
+  line-height: 2.2
+  font-size: 18px
+
+
+  
+//
+// section-audience
+//
+
+.section-audience
+  min-height: 900px
+  background-image: url("../images/svg/buildingAudience-bg.svg")
+  background-size: cover
+  position: relative
+  z-index: 2
+  &__head
+    text-align: center
+    padding-top: 150px
+    margin-bottom: 90px
+  &__title
+  &__sub
+  &__body
+    display: flex
+    justify-content: space-between
+
+.audience-block
+  width: 270px
+  text-align: center
+  &__img
+    display: inline-block
+    width: 150px
+    margin-bottom: 20px
+    &-icon
+      width: 100%
+      height: auto
+  &__title
+    margin-bottom: 20px
+    font-size: 27px
+    line-height: 1.1
+    color: #000000
+    font-weight: 600
+    font-family: "AvenirNext"
+  &__sub
+    margin-bottom: 20px
+
+//
+// 
+//
+
+//
+// 
+//
+
+//
 // 
 //
 
