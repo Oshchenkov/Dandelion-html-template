@@ -180,7 +180,7 @@
   &__img
     display: inline-block
     width: 150px
-    margin-bottom: 20px
+    margin-bottom: 30px
     &-icon
       width: 100%
       height: auto
@@ -199,13 +199,76 @@
 //
 
 //
-// 
+// section-reach-company
 //
 
-//
-// 
-//
 
+.section-reach-company
+  background-image: url("../images/Rectangle Copy 173.png")
+  background-repeat: no-repeat
+  background-size: cover
+  position: relative
+  color: #fff
+  min-height: 700px
+  overflow: hidden
+  display: flex
+  align-items: center
+  justify-content: center
+  &__left-icon
+    position: absolute
+    bottom: -275px
+    left: 0
+    max-width: 420px
+    z-index: 0
+  &__right-icon
+    position: absolute
+    right: 0
+    top: 0
+    max-width: 450px
+    z-index: 0
+  &__content
+    position: relative
+    z-index: 1
+    max-width: 600px
+    text-align: center
+    color: #fff
+
+.reach-company-content
+  &__title
+    color: #fff
+    &::after
+      background-color: #fff
+  &__sub
+    color: #fff
+    margin-bottom: 60px
+
+.reach-company-content-form
+  &__text-input
+    text-align: center
+    width: 370px
+    padding: 5px 20px
+    font-size: 18px
+    line-height: 2.2
+    color: $main-text-color
+    border: 1px solid $main-text-color
+    border-radius: 8px
+    margin-bottom: 50px
+    &::placeholder
+      color: $grey-color
+  &__submit-input
+    border-radius: 50px
+    background-color: $blue-color
+    border: 1px solid $blue-color
+    box-shadow: $box-shadow
+    font-size: 18px
+    font-weight: 500
+    letter-spacing: 0.45px
+    color: $main-text-color
+    padding: 10px 42px
+    &:hover,
+    &:active,
+    &:focus
+      box-shadow: $box-shadow-active
 
 
 ////
