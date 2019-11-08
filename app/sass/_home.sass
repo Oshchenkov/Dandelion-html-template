@@ -128,7 +128,7 @@
   color: $main-text-color
   font-family: "AvenirNext"
   font-size: 47px
-  font-weight: 500
+  font-weight: 700
   line-height: 1.2
   position: relative
   padding-bottom: 55px
@@ -195,8 +195,274 @@
     margin-bottom: 20px
 
 //
-// 
+// section-authentic-scheme
 //
+
+.section-authentic-scheme
+  background-image: url("../images/svg/path-bg.svg")
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: center
+  &__head
+    margin-top: 60px
+    text-align: center
+    max-width: 570px
+    margin-bottom: 80px
+  &__body
+    min-height: 900px
+    padding-bottom: 60px
+  
+
+.authentic-scheme-row
+  max-width: 700px
+  margin: 0 auto
+  display: flex
+  position: relative
+
+
+.authentic-scheme-row-first
+  // background-color: #ccc
+  min-height: 400px
+
+  &__text-block.linkedin-block
+    position: absolute
+    top: 0
+    left: 2px
+  &__hr-block
+    position: absolute
+    left: calc(50% - 29px)
+    top: calc(50% - 29px)
+    &::before
+      content: ''
+      display: block
+      position: absolute
+      width: 94px
+      height: 32px
+      opacity: 0.3
+      border: solid 2px $medium-main-color
+      border-bottom-color: transparent
+      border-left-color: transparent
+      top: -32px
+      left: -64px
+    &::after
+      content: ''
+      display: block
+      position: absolute
+      width: 94px
+      height: 32px
+      opacity: 0.3
+      border: solid 2px $medium-main-color
+      bottom: -32px
+      right: -64px
+      border-top-color: transparent
+      border-right-color: transparent
+  &__text-block.email-block
+    position: absolute
+    bottom: 4px
+    right: 2px
+
+.authentic-scheme-text-block
+  color: #fff
+  align-self: flex-start
+  width: 230px
+  &__title
+  &__text
+    background-color: $medium-main-color
+    padding: 10px
+    border-radius: 8px
+    box-shadow: $box-shadow
+    &>p
+      font-size: 16px
+    &>p:last-child
+      margin-bottom: 0
+
+.authentic-scheme-social-link
+  display: flex
+  margin-bottom: 10px
+  align-items: center
+  color: $main-text-color
+  &__icon
+    width: 25px
+    height: auto
+  &__text
+    margin-bottom: 0
+    margin-left: 10px
+    font-size: 16px
+    margin-top: 2px
+    &:hover,
+    &:active,
+    &:focus
+      color: $main-text-color
+
+
+.authentic-scheme-hr-l
+  font-size: 16px
+  font-weight: 700
+  color: $main-text-color
+  display: flex
+  width: 58px
+  height: 58px
+  background-color: #fff
+  border-radius: 50%
+  border: 1px solid #979797
+  align-items: center
+  justify-content: center
+
+
+.authentic-scheme-row-second
+  min-height: 150px
+  // background-color: #eee
+  display: flex
+  align-items: center
+  
+.authentic-scheme-row-third
+  min-height: 350px
+  // background-color: #ddd
+
+
+.authentic-scheme-social-medium-block
+  display: flex
+  flex-direction: column
+  background-color: #3b4e93
+  color: #fff
+  width: 95px
+  height: 95px
+  border-radius: 8px
+  box-shadow: $box-shadow
+  align-items: center
+  justify-content: center
+  margin-left: 10px
+  margin-right: 10px
+  &__icon
+    width: 30px
+    height: auto
+    border-radius: 50%
+    background-color: #fff
+    margin-bottom: 5px
+  &__text
+  &:hover,
+  &:active,
+  &:focus
+    color: #fff
+.authentic-scheme-social-medium-block:first-child
+  margin-left: 2px
+
+.authentic-scheme-hr-m
+  display: flex
+  align-items: center
+  justify-content: center
+  font-size: 16px
+  font-weight: 700
+  color: $main-text-color
+  width: 34px
+  height: 34px
+  background-color: #fff
+  border-radius: 50%
+  border: 1px solid #979797
+  margin-left: 10px
+  margin-right: 10px
+  position: relative
+  z-index: 2
+  &::before 
+    content: ''
+    display: block
+    width: 10px
+    position: absolute
+    left: -10px
+    height: 2px
+    background-color: $medium-main-color
+    opacity: 0.3
+    z-index: 0
+  &::after 
+    content: ''
+    display: block
+    width: 10px
+    position: absolute
+    right: -10px
+    height: 2px
+    background-color: $medium-main-color
+    opacity: 0.3
+    z-index: 0
+    
+.authentic-scheme-row-second__hr-block
+  margin-left: 110px
+  position: relative
+  &::before
+    content: ''
+    display: block
+    width: 100px
+    position: absolute
+    height: 2px
+    left: -100px
+    background-color: $medium-main-color
+    opacity: 0.3
+    z-index: 0
+  &::after
+    content: ''
+    display: block
+    width: 2px
+    position: absolute
+    top: -33px
+    height: 32px
+    background-color: $medium-main-color
+    opacity: 0.3
+    z-index: 0
+    
+.authentic-scheme-row-third
+  
+.authentic-scheme-row-third__hr-block
+  position: absolute
+  top: 80px
+  left: 20px
+  &::after
+    content: ''
+    display: block
+    width: 68px
+    height: 120px
+    position: absolute
+    border: 2px solid $medium-main-color
+    border-top-color: transparent
+    border-right-color: transparent
+    bottom: -120px
+    right: -40px
+    opacity: 0.3
+    z-index: 0
+  &::before
+    content: ''
+    display: block
+    width: 2px
+    height: 88px
+    position: absolute
+    top: -89px
+    background-color: $medium-main-color
+    opacity: 0.3
+    z-index: 0
+.authentic-scheme-row-third__text-block
+  align-self: flex-end
+  margin-left: 140px
+.authentic-scheme-row-third__conversion-icon
+  position: absolute
+  bottom: 15px
+  right: 30px
+  width: 162px
+  height: 162px
+  &-img
+    width: 100%
+    height: auto
+  &::before
+    content: ''
+    display: block
+    width: 96px
+    height: 2px
+    position: absolute
+    top: 81px
+    left: -116px
+    background-color: $medium-main-color
+    opacity: 0.3
+    z-index: 0
+
+
+
 
 //
 // section-reach-company
